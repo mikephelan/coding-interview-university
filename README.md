@@ -203,7 +203,7 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
     Fork a branch and follow the commands below
 
-Fork the GitHub repo https://github.com/jwasham/coding-interview-university by clicking on the Fork button
+Fork the GitHub repo https://github.com/jwasham/coding-interview-university by clicking on the Fork button 
 
     Clone to your local repo
 
@@ -248,6 +248,19 @@ Sometimes the classes are not in session so you have to wait a couple of months,
 ## Interview Process & General Interview Prep
 
 - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+  * [ ] Dijkstra’s shortest path first (SPF) between nodes
+  * [ ] Floyd-Warshall
+  * [ ] Traveling Salesman
+  * [ ] A*
+  * [ ] bloom filter
+  * [ ] breadth-first iterative search
+  * [ ] binary search
+  * [ ] k-way merge
+  * [ ] bubble/selection/insertion sort
+  * [ ] in-place quick sort
+  * [ ] bucket/radix sort
+  * [ ] closest pair
+
 - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
 - [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
 - [ ] How to Get a Job at the Big 4:
