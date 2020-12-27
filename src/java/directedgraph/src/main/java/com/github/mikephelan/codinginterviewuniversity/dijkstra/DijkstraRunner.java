@@ -1,5 +1,8 @@
 package com.github.mikephelan.codinginterviewuniversity.dijkstra;
 
+import java.util.Iterator;
+import java.util.LinkedList;
+
 /**
  * Runner class for Dijkstra shortest path problem on a directed graph
  *
@@ -33,6 +36,20 @@ public class DijkstraRunner {
 	graph.addNode(nodeE);
 	graph.addNode(nodeF);
 	graphSoln = Dijkstra.calculateShortestPathFromSource(graph, nodeA);
+
+	System.out.println("Shortest Path From node A to node F");
+	Iterator<Node> iter = graphSoln.getNodes().iterator();
+	while(iter.hasNext()){
+	    if(iter.next().getName() == "F") {
+		Node endNode = iter.next();
+		LinkedList<Node> shortestPath = new LinkedList<>(endNode.getShortestPath());
+		Iterator<Node> spIter = shortestPath.iterator();
+		while(spIter.hasNext()) {
+		    Node currNode = spIter.next();
+		    System.out.println("Node: " + currNode.getName());
+		}
+	    }
+	}
 	System.out.println("End Shortest Path Problem");
     }
 }
