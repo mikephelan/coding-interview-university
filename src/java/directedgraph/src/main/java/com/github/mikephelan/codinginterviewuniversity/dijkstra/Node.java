@@ -22,7 +22,7 @@ public class Node {
 	adjacentNodes.put(destination, distance);
     }
 
-    public String getNmae() {
+    public String getName() {
 	return name;
     }
 
