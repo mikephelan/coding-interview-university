@@ -248,7 +248,7 @@ Sometimes the classes are not in session so you have to wait a couple of months,
 ## Interview Process & General Interview Prep
 
 - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-  * [*] Dijkstra’s shortest path first (SPF) between nodes
+  [*] Dijkstra’s shortest path first (SPF) between nodes
   * [ ] Floyd-Warshall
   * [ ] Traveling Salesman
   * [ ] A*
