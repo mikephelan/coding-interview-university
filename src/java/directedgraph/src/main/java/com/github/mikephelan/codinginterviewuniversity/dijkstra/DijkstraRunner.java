@@ -40,14 +40,16 @@ public class DijkstraRunner {
 	System.out.println("Shortest Path From node A to node F");
 	Iterator<Node> iter = graphSoln.getNodes().iterator();
 	while(iter.hasNext()){
-	    if(iter.next().getName() == "F") {
-		Node endNode = iter.next();
-		LinkedList<Node> shortestPath = new LinkedList<>(endNode.getShortestPath());
+	    Node finalNode, currNode = iter.next();
+	    if(currNode.getName() == "F") {
+		finalNode = currNode;
+		LinkedList<Node> shortestPath = new LinkedList<>(currNode.getShortestPath());
 		Iterator<Node> spIter = shortestPath.iterator();
 		while(spIter.hasNext()) {
-		    Node currNode = spIter.next();
-		    System.out.println("Node: " + currNode.getName());
+		    Node innerNode = spIter.next();
+		    System.out.println("Node: " + innerNode.getName());
 		}
+		System.out.println("Node: " + finalNode.getName());
 	    }
 	}
 	System.out.println("End Shortest Path Problem");
