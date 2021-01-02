@@ -34,5 +34,8 @@ public class BinarySearchTreeTest
 	assertTrue(bt.containsNode(7));
 	assertTrue(bt.containsNode(9));
 	assertFalse(bt.containsNode(1));
+
+	bt.delete(9);
+	assertFalse(bt.containsNode(9));
     }
 }

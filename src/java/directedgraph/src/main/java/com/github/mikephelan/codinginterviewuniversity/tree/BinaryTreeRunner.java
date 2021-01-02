@@ -18,5 +18,9 @@ public class BinaryTreeRunner {
 	System.out.println("Hello, Binary Search Tree!");
 	BinaryTree bt = BinaryTreeRunner.CreateBinaryTree();
 	System.out.println("Binary Tree contains six: " + bt.containsNode(6));
+	if(bt.containsNode(9)) {
+	    bt.delete(9);
+	}
+	System.out.println("Binary Tree contains nine after deletion: " + bt.containsNode(9));
     }
 }
